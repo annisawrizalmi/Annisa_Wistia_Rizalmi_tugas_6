@@ -1,0 +1,83 @@
+body {
+	box-sizing: border-box; 
+	font-size:20px;
+	background-color:#8FBC8F; 
+}
+
+#ViewData {
+	width:30%;
+	padding:20px;
+	margin-left:35%; 
+	background-color:#4CAF50 ;
+	border:none;   
+	cursor:pointer;
+	border-radius:5px; 
+	font-size:20px;  
+	color:white;  
+
+}
+
+#divisi {
+	padding:10px;
+	margin-left:30%;
+	margin-top:11%; 
+	background-color:#2cc59c;
+	width:40%;
+	border-radius:4px;  
+}
+
+
+table {
+	width:95%;
+	background-color: #FF7F50; 
+	padding:2%;
+	margin: 3%;
+	border-radius:4px;  
+}
+
+/*gaya disini*/
+h2 {
+	text-align:center; 
+	padding:2%;    
+	color:#FF7F50; 
+	background-color:white;
+	margin-left:6%;  
+	width:85%;  
+}
+
+/*gaya untuk inputannya*/
+input[type=text], input[type=password] {
+border:3px solid #2cc59c;
+outline:none;
+padding:10px;  
+width:50%;   
+border-radius:8px;
+}
+
+/*Mengatur fokus dari inputannya*/
+input[type=text]:focus {
+    border: 5px solid #4CAF50;
+}
+
+input[type=password]:focus {
+    border: 5px solid #4CAF50;
+}
+
+/*gaya untuk tombolnya*/
+input[type=submit] {
+	background-color:#4CAF50 ;
+	border:none;
+	width:50%;
+	margin-right:30%; 
+	padding:2%;  
+	cursor:pointer;
+	border-radius:5px; 
+	font-size:20px;  
+	color:white;  
+}
+
+/*Saat panah menuju simpan*/
+input[type=submit]:hover {
+    background-color:#FFA07A ;
+    
+}
